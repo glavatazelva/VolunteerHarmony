@@ -1,0 +1,371 @@
+2024-02-03 23:23:32,421 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:47] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-206]
+2024-02-04 15:23:30,332 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:165] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-06 16:51:59,391 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:47] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-206]
+2024-02-07 01:18:59,004 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:165] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-07 01:20:25,474 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:165] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-07 01:22:59,021 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:165] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-09 23:06:38,510 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:165] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/organizationMenuBar.fxml:9
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml:14
+
+2024-02-10 15:31:24,909 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:473] Syntax error in SQL statement "VOLUNTEERIDQUERY[*]"; SQL statement:
+volunteerIDQuery [42000-206]
+2024-02-10 15:38:05,781 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:647] Syntax error in SQL statement "SELECT * FROM CHARITY WHERE EMAIL = REDCROSS@[*]HCK.HR"; SQL statement:
+SELECT * FROM CHARITY WHERE EMAIL = redcross@hck.hr [42000-206]
+2024-02-10 15:39:04,814 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:647] Syntax error in SQL statement "SELECT * FROM CHARITY WHERE EMAIL = REDCROSS@[*]HCK.HR"; SQL statement:
+SELECT * FROM CHARITY WHERE EMAIL = redcross@hck.hr [42000-206]
+2024-02-10 15:40:08,854 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:647] Syntax error in SQL statement "SELECT * FROM CHARITY WHERE EMAIL = REDCROSS@[*]HCK.HR"; SQL statement:
+SELECT * FROM CHARITY WHERE EMAIL = redcross@hck.hr [42000-206]
+2024-02-10 16:58:18,520 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:647] No data is available [2000-206]
+2024-02-10 17:03:41,825 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:648] No data is available [2000-206]
+2024-02-10 17:05:58,881 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:648] No data is available [2000-206]
+2024-02-10 17:08:49,113 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:650] No data is available [2000-206]
+2024-02-10 17:09:42,194 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:651] No data is available [2000-206]
+2024-02-10 17:10:04,914 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:651] Column "NAME" not found [42122-206]
+2024-02-10 17:12:49,807 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:650] Value too long for column "VOLUNTEERS_ID CHARACTER(255)": "'0                                                                              ... (258)"; SQL statement:
+UPDATE CHARITY SET VOLUNTEERS_ID = '0                                                                                                                                                                                                                                                              , 1' [22001-206]
+2024-02-10 17:14:23,004 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:651] Value too long for column "VOLUNTEERS_ID CHARACTER(255)": "'0                                                                              ... (258)"; SQL statement:
+UPDATE CHARITY SET VOLUNTEERS_ID = '0                                                                                                                                                                                                                                                              , 1' [22001-206]
+2024-02-10 17:36:24,387 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:653] Syntax error in SQL statement "UPDATE CHARITY SET VOLUNTEERS_ID ='0                                                                                                                                                                                                                                                              , 1' WHERE EMAIL = REDCROSS@[*]HCK.HR"; SQL statement:
+UPDATE CHARITY SET VOLUNTEERS_ID ='0                                                                                                                                                                                                                                                              , 1' WHERE EMAIL = redcross@hck.hr [42000-206]
+2024-02-10 17:37:10,301 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:653] Value too long for column "VOLUNTEERS_ID CHARACTER(255)": "'0                                                                              ... (258)"; SQL statement:
+UPDATE CHARITY SET VOLUNTEERS_ID ='0                                                                                                                                                                                                                                                              , 1' WHERE EMAIL = 'redcross@hck.hr' [22001-206]
+2024-02-10 17:38:10,333 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:655] Value too long for column "VOLUNTEERS_ID CHARACTER(255)": "'0                                                                              ... (258)"; SQL statement:
+UPDATE CHARITY SET VOLUNTEERS_ID ='0                                                                                                                                                                                                                                                              , 1' WHERE EMAIL = 'redcross@hck.hr' [22001-206]
+2024-02-10 17:52:35,692 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:647] No data is available [2000-206]
+2024-02-10 17:54:33,915 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:647] No data is available [2000-206]
+2024-02-10 17:55:07,278 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:649] No data is available [2000-206]
+2024-02-10 17:56:33,133 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:650] No data is available [2000-206]
+2024-02-10 17:57:18,334 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:650] No data is available [2000-206]
+2024-02-10 18:00:40,349 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:652] No data is available [2000-206]
+2024-02-10 18:01:52,615 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:652] The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-206]
+2024-02-10 21:41:15,809 ERROR [JavaFX Application Thread] c.e.p.AnimalWelfareHomePageController [AnimalWelfareHomePageController.java:71] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/organizationTabs/organizationAddNewVolunteerTab.fxml
+
+2024-02-10 23:05:58,708 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:177] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-11 11:24:28,951 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:478] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID = [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =  [42001-206]
+2024-02-11 11:24:28,954 ERROR [JavaFX Application Thread] c.e.p.OrganizationRemoveVolunteerController [OrganizationRemoveVolunteerController.java:303] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-11 11:24:30,762 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:478] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID = [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =  [42001-206]
+2024-02-11 11:24:30,763 ERROR [JavaFX Application Thread] c.e.p.OrganizationRemoveVolunteerController [OrganizationRemoveVolunteerController.java:303] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-11 11:40:11,461 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:478] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                 [42001-206]
+2024-02-11 11:40:12,803 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:478] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                 [42001-206]
+2024-02-11 11:40:45,105 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:478] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                 [42001-206]
+2024-02-11 11:40:47,327 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:478] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                                 [42001-206]
+2024-02-11 19:20:15,191 INFO [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:76] gej
+2024-02-11 19:20:39,706 INFO [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:76] gej
+2024-02-11 19:20:51,143 INFO [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:76] gej
+2024-02-11 19:21:19,692 INFO [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:76] gej
+2024-02-11 19:21:37,991 INFO [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:76] gej
+2024-02-11 19:22:09,149 INFO [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:76] gej
+2024-02-11 22:41:09,248 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:733] Table "CHARITYSETDESCRIPTION" not found; SQL statement:
+UPDATE CHARITYSETdescription = 'Hrvatski Crveni ' WHERE ID = 1 [42102-206]
+2024-02-12 00:33:57,517 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:182] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-12 00:37:09,749 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:332] Email is already in use!
+2024-02-12 00:39:09,831 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:332] Email is already in use!
+2024-02-12 11:16:08,692 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [CharityHomePageController.java:111] Error resolving onAction='#createNewCharityAction', either the event handler is not in the Namespace or there is an error in the script.
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityAddAction.fxml:51
+
+2024-02-12 11:16:45,528 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [CharityHomePageController.java:111] Error resolving onAction='#createNewCharityAction', either the event handler is not in the Namespace or there is an error in the script.
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityAddAction.fxml:51
+
+2024-02-12 12:06:33,730 ERROR [JavaFX Application Thread] c.e.p.CharityAddActionController [CharityAddActionController.java:115] Wrong called volunteers format
+2024-02-12 12:06:45,649 ERROR [JavaFX Application Thread] c.e.p.CharityAddActionController [CharityAddActionController.java:115] Wrong called volunteers format
+2024-02-12 12:06:50,161 ERROR [JavaFX Application Thread] c.e.p.CharityAddActionController [CharityAddActionController.java:115] Wrong called volunteers format
+2024-02-12 19:55:37,393 ERROR [JavaFX Application Thread] c.e.p.AnimalWelfareHomePageController [AnimalWelfareHomePageController.java:113] Error resolving onAction='#addNewAction', either the event handler is not in the Namespace or there is an error in the script.
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/animalWelfareTabs/animalWelfareAddAction.fxml:51
+
+2024-02-12 20:31:19,740 ERROR [JavaFX Application Thread] c.e.p.AnimalWelfareHomePageController [AnimalWelfareHomePageController.java:113] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/animalWelfareTabs/animalWelfareAddAction.fxml
+
+2024-02-12 20:34:28,475 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:978] Column "CITY" not found; SQL statement:
+INSERT INTO CHARITY_ACTION (NAME, DESCRIPTION, ENDING_DATE, CITY, NUMBER_OF_SAVED_ANIMALS, TYPE_OF_INVOLVED_ANIMAL,ANIMAL_WELFARE_ID) VALUES (?, ?, ?, ?, ?, ?,?) [42122-206]
+2024-02-12 22:15:40,015 ERROR [JavaFX Application Thread] c.e.p.DisasterReliefHomePageController [DisasterReliefHomePageController.java:112] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityAddAction.fxml
+
+2024-02-12 22:45:55,159 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:1037] Column "OCCURRED_DISASTER" not found; SQL statement:
+INSERT INTO ANIMAL_WELFARE_ACTION (NAME, DESCRIPTION, ENDING_DATE, CITY, OCCURRED_DISASTER, ESTIMATED_NUMBER_OF_ENDANGERED_PEOPLE,SHELTER_NEEDED,DISASTER_RELIEF_ID) VALUES (?, ?, ?, ?, ?, ?,?,?) [42122-206]
+2024-02-12 22:49:39,468 ERROR [JavaFX Application Thread] c.e.p.DisasterReliefAddActionController [DisasterReliefAddActionController.java:156] Action with the same name exists
+2024-02-12 23:46:55,800 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-12 23:53:38,681 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-12 23:55:45,794 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 00:00:40,406 ERROR [pool-2-thread-1] c.e.p.u.DatabaseUtils [DatabaseUtils.java:370] Column "FOUNDS_RAISED" not found [42122-206]Error while loading CharityAction from ResultSet
+2024-02-13 00:00:58,526 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:370] Column "FOUNDS_RAISED" not found [42122-206]Error while loading CharityAction from ResultSet
+2024-02-13 00:01:31,052 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 00:05:07,655 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 10:46:31,707 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-13 10:57:44,247 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 11:07:48,130 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-13 11:33:13,842 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:456] files\serialization.bin (The system cannot find the path specified)
+2024-02-13 11:33:37,879 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:456] files\serialization.bin (The system cannot find the path specified)
+2024-02-13 11:34:50,878 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:456] com.example.pericinprojektnizadatak.model.organization.Charity
+2024-02-13 11:44:12,843 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:459] com.example.pericinprojektnizadatak.model.organization.Charity
+2024-02-13 12:00:54,408 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:459] com.example.pericinprojektnizadatak.model.PersonalInformation
+2024-02-13 12:03:14,330 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:459] com.example.pericinprojektnizadatak.model.PersonalInformation
+2024-02-13 12:03:50,532 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:459] com.example.pericinprojektnizadatak.model.PersonalInformation
+2024-02-13 12:05:14,481 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-13 12:06:28,814 ERROR [JavaFX Application Thread] c.e.p.AnimalWelfareHomePageController [AnimalWelfareHomePageController.java:105] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/organizationTabs/organizationEditAccount.fxml
+
+2024-02-13 12:30:48,461 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 12:31:49,096 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 12:32:47,143 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 13:42:50,486 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.organization.Organization; local class incompatible: stream classdesc serialVersionUID = -402135860403272140, local class serialVersionUID = -9058789086746728629
+2024-02-13 13:42:50,488 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 13:51:07,140 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-13 14:17:36,045 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 14:17:49,268 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.organization.Organization; local class incompatible: stream classdesc serialVersionUID = -402135860403272140, local class serialVersionUID = -9058789086746728629
+2024-02-13 14:17:49,270 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 14:19:11,188 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.organization.AnimalWelfare; local class incompatible: stream classdesc serialVersionUID = -2381899738790509406, local class serialVersionUID = -3059954921117931687
+2024-02-13 14:19:11,190 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 14:21:20,294 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.organization.Organization; local class incompatible: stream classdesc serialVersionUID = -402135860403272140, local class serialVersionUID = -9058789086746728629
+2024-02-13 14:21:20,296 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:75] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 14:58:41,038 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 15:14:01,236 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-13 16:32:01,595 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 16:43:42,976 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-13 16:44:03,591 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 16:45:20,832 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 17:41:32,743 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 17:45:21,656 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 17:48:08,392 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 17:59:34,150 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-13 18:05:06,487 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/disasterReliefTabs/disasterReliefHomePage.fxml
+
+2024-02-13 18:06:07,696 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-13 18:12:20,075 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-13 18:12:45,931 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-13 18:14:37,460 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-13 18:18:06,341 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-13 18:21:09,415 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-13 22:33:17,679 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:91] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerEditAccount.fxml:50
+
+2024-02-13 22:43:23,786 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:845] Column "CONTACT_PHONE" not found; SQL statement:
+UPDATE VOLUNTEER SET contact_phone = '+81 17921' WHERE ID = 2 [42122-206]
+2024-02-13 23:09:41,276 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.Volunteer; local class incompatible: stream classdesc serialVersionUID = 6377568870546382672, local class serialVersionUID = -4533594597239637556
+2024-02-13 23:10:50,665 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.Volunteer; local class incompatible: stream classdesc serialVersionUID = 6377568870546382672, local class serialVersionUID = -4533594597239637556
+2024-02-13 23:10:50,667 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:13:13,200 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] com.example.pericinprojektnizadatak.model.Volunteer; local class incompatible: stream classdesc serialVersionUID = 6377568870546382672, local class serialVersionUID = -4533594597239637556
+2024-02-13 23:13:13,202 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:14:24,447 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:14:24,449 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:16:24,778 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:16:24,780 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:17:04,178 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:17:04,180 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:17:23,488 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:17:23,490 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:17:42,049 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:17:42,051 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:18:03,009 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:18:03,011 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:18:21,249 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:18:21,252 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:18:35,089 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:18:35,092 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:18:49,121 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:18:49,123 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:19:08,114 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:19:08,116 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:19:27,354 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:19:27,356 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-13 23:24:13,669 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] invalid stream header: EFBFBDEF
+2024-02-13 23:24:13,671 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:73] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-14 00:13:00,140 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:169] Syntax error in SQL statement "SELECT CA.NAME, CA.DESCRIPTION, CA.ENDING_DATEFROM CHARITY_ACTION CAJOIN[*] CHARITY C ON CA.CHARITY_ID = C.IDWHERE C.VOLUNTEERS_ID IN (SELECT ID FROM CHARITY WHERE ID = 0);"; SQL statement:
+SELECT ca.NAME, ca.DESCRIPTION, ca.ENDING_DATEFROM CHARITY_ACTION caJOIN CHARITY c ON ca.CHARITY_ID = c.IDWHERE c.VOLUNTEERS_ID IN (SELECT ID FROM CHARITY WHERE ID = 0); [42000-206]
+2024-02-14 00:13:00,141 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:14:03,600 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:34:32,815 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:37:30,653 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:38:12,921 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:39:17,019 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:39:49,402 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 00:57:02,451 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 01:03:49,226 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] null
+2024-02-14 01:03:49,228 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:99] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-14 01:05:03,462 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 01:06:15,479 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 01:07:51,471 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 01:08:53,088 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 10:00:49,246 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml:17
+
+2024-02-14 10:02:27,519 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml:17
+
+2024-02-14 10:03:51,269 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 10:09:58,304 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-14 10:15:56,228 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-14 15:02:33,427 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:160] null
+2024-02-14 15:02:33,429 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:99] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-14 15:04:44,848 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-14 15:08:32,521 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 15:17:07,229 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:161] null
+2024-02-14 15:17:07,230 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:99] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-14 17:52:30,156 ERROR [JavaFX Application Thread] c.e.p.HelloController [HelloController.java:213] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerHomePage.fxml
+
+2024-02-14 17:58:45,753 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:161] com.example.pericinprojektnizadatak.model.Volunteer; local class incompatible: stream classdesc serialVersionUID = -4533594597239637556, local class serialVersionUID = 8337200123794182052
+2024-02-14 18:19:42,738 ERROR [JavaFX Application Thread] c.e.p.u.FileUtils [FileUtils.java:161] com.example.pericinprojektnizadatak.model.Volunteer; local class incompatible: stream classdesc serialVersionUID = -4533594597239637556, local class serialVersionUID = 8337200123794182052
+2024-02-14 18:19:42,739 ERROR [JavaFX Application Thread] c.e.p.VolunteerHomePageController [VolunteerHomePageController.java:110] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/volunteerTabs/volunteerSerializationTab.fxml
+
+2024-02-14 18:23:02,639 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 19:41:13,846 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-14 19:59:16,485 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:39] Scheduler shut down successfully.
+2024-02-14 19:59:34,845 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-14 19:59:54,237 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-14 20:03:05,095 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-14 21:01:49,918 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:44] Scheduler shut down successfully.
+2024-02-14 21:02:12,471 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Scheduler shut down successfully.
+2024-02-14 23:09:24,612 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:42] Thread done executing
+2024-02-14 23:52:32,433 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:38] Thread done executing
+2024-02-14 23:54:42,809 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:38] Thread done executing
+2024-02-14 23:55:10,873 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:38] Thread done executing
+2024-02-15 10:15:17,702 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 10:16:34,717 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 10:26:36,418 ERROR [JavaFX Application Thread] c.e.p.OrganizationEditAccountController [OrganizationEditAccountController.java:189] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-15 10:31:43,851 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 10:36:14,996 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 10:46:56,003 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 10:52:01,698 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:87] Thread done executing
+2024-02-15 10:52:54,449 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [AnimalWelfareActionsThread.java:87] Thread done executing
+2024-02-15 11:00:42,617 ERROR [JavaFX Application Thread] c.e.p.DisasterReliefAddActionController [DisasterReliefAddActionController.java:162] Action with the same name exists
+2024-02-15 11:02:08,185 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 11:04:01,194 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 11:04:19,937 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 11:04:21,169 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 11:16:44,917 ERROR [JavaFX Application Thread] c.e.p.DisasterReliefHomePageController [DisasterReliefHomePageController.java:124] Error resolving onAction='#sortVolunteers', either the event handler is not in the Namespace or there is an error in the script.
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/organizationTabs/organizationRemoveVolunteerTab.fxml:93
+
+2024-02-15 11:17:46,113 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 11:17:47,336 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-02-15 12:34:41,808 ERROR [JavaFX Application Thread] c.e.p.VolunteerFormController [VolunteerFormController.java:130] Email is already in use!
+2024-02-15 12:38:20,360 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 12:40:51,097 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 12:44:11,311 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 12:48:27,311 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 12:52:01,247 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 12:52:52,174 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 12:54:08,341 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 12:54:24,261 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 12:58:13,321 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:00:23,574 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing
+2024-02-15 13:06:36,529 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:26:32,369 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:26:32,371 ERROR [JavaFX Application Thread] c.e.p.OrganizationRemoveVolunteerController [OrganizationRemoveVolunteerController.java:304] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-15 13:26:36,201 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:26:36,202 ERROR [JavaFX Application Thread] c.e.p.OrganizationRemoveVolunteerController [OrganizationRemoveVolunteerController.java:304] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-15 13:34:18,591 ERROR [Thread-4] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:36:27,583 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:36:27,585 ERROR [JavaFX Application Thread] c.e.p.OrganizationRemoveVolunteerController [OrganizationRemoveVolunteerController.java:304] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-15 13:36:28,750 ERROR [JavaFX Application Thread] c.e.p.u.DatabaseUtils [DatabaseUtils.java:596] Syntax error in SQL statement "SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                          [*]"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM VOLUNTEER WHERE ID =                                                                                                                                                                                                                                                           [42001-206]
+2024-02-15 13:36:28,750 ERROR [JavaFX Application Thread] c.e.p.OrganizationRemoveVolunteerController [OrganizationRemoveVolunteerController.java:304] 
+/E:/Faks/3.%20semestar/Java/Volonterske_akcije_Pericin/Pericin-ProjektniZadatak/target/classes/com/example/pericinprojektnizadatak/charityTabs/charityHomePage.fxml
+
+2024-02-15 13:42:39,906 INFO [JavaFX Application Thread] c.e.p.t.DisasterReliefActionsThread [DisasterReliefActionsThread.java:86] Thread done executing
+2024-03-09 19:32:59,471 INFO [JavaFX Application Thread] c.e.p.t.CharityActionsThread [CharityActionsThread.java:98] Thread done executing

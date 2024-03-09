@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="126.0" prefWidth="157.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pericinprojektnizadatak.CharityAdditionalDetailsController">
+   <children>
+      <Label prefHeight="18.0" prefWidth="158.0" text="currently aiding" />
+      <TextField fx:id="familiesCurrentlyAiding" />
+      <Label prefHeight="18.0" prefWidth="178.0" text="families" />
+   </children>
+</VBox>

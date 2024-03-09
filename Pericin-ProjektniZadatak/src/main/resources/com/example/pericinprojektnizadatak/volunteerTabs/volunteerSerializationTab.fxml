@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pericinprojektnizadatak.VolunteerSerializationTabController">
+
+    <GridPane prefHeight="650.0" prefWidth="800.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="531.199951171875" minWidth="10.0" prefWidth="258.0000366210937" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="435.2000427246094" minWidth="10.0" prefWidth="378.7999633789062" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="435.2000427246094" minWidth="10.0" prefWidth="268.79999999999995" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="554.6000122070312" minHeight="10.0" prefHeight="109.60001068115236" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="403.19999389648433" minHeight="0.0" prefHeight="63.800024414062506" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="473.3999755859375" minHeight="0.0" prefHeight="473.3999755859375" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <TableView fx:id="changesTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.rowIndex="2">
+                <columns>
+                    <TableColumn fx:id="beforeColumn" prefWidth="243.9999634027481" text="BEFORE" />
+                    <TableColumn fx:id="afterColumn" prefWidth="203.199951171875" text="AFTER" />
+                    <TableColumn fx:id="role" prefWidth="152.00009155273438" text="ROLE" />
+                    <TableColumn fx:id="dateTimeColumn" prefWidth="311.199951171875" text="DATE &amp; TIME" />
+                </columns>
+            </TableView>
+            <Label text="Data changes" textFill="#251fe7" GridPane.columnSpan="3" GridPane.halignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="24.0" />
+                </font>
+            </Label>
+         <Button mnemonicParsing="false" onAction="#back" text="Back" GridPane.valignment="TOP" />
+        </children>
+    </GridPane>
+
+
+</VBox>

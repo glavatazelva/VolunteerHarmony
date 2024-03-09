@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pericinprojektnizadatak.VolunteerFormController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="262.8000030517578" minWidth="10.0" prefWidth="160.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="371.4000244140625" minWidth="10.0" prefWidth="158.19999542236326" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="422.80000000000007" minWidth="10.0" prefWidth="281.4000122070313" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.39996337890625" minWidth="10.0" prefWidth="160.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label text="name:" GridPane.columnIndex="1" />
+      <Label text="last name:" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label text="age:" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label text="gender:" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label text="nationality:" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label text="email:" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label text="phone number:" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label fx:id="callingNumber" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" GridPane.columnIndex="2" />
+      <TextField fx:id="surname" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <ComboBox fx:id="gender" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <ComboBox fx:id="nationality" onAction="#changeCallingNumberDependingOnCountry" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <TextField fx:id="email" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Spinner fx:id="age" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <TextField fx:id="phoneNumber" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" onAction="#createVolunteer" text="Done" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <Label text="password" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <TextField fx:id="password" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+   </children>
+</GridPane>
